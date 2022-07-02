@@ -13,8 +13,7 @@ icon.style.margin = "1em";
 icon.style.cursor = "pointer";
 document.body.appendChild(icon);
 icon.onclick = () => icon.style.display = "none";
-
-Object.freeze(icon); // this prevents malicious code from changing the text of the icon
+Object.freeze(icon);
 
 document.addEventListener('keydown', (event) => {
     if (event.getModifierState('CapsLock')) {
