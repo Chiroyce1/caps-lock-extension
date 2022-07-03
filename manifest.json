@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Caps Lock Detection",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "Reminds you to turn off caps lock if you have it on.",
     "content_scripts": [
       {
